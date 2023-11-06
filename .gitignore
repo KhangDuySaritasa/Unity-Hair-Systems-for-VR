@@ -5,6 +5,7 @@ Temp/
 Obj/
 UnityGenerated/
 Library/
+UserSettings/
 Assets/AssetStoreTools*
 *.log
 ProjectSettings/EditorUserSettings.asset
@@ -46,9 +47,6 @@ Thumbs.db
 !src/*/Assets/UserWorkspace
 src/*/Assets/UserWorkspace/*
 !src/*/Assets/UserWorkspace/.gitkeep
-!src/*/Assets/UserWorkspace/Keystores
-src/*/Assets/UserWorkspace/Keystores/*
-!src/*/Assets/UserWorkspace/Keystores/KeystoreLink.txt
 
 # ================= #
 # Exlude docs build #
@@ -60,3 +58,4 @@ src/*/Assets/UserWorkspace/Keystores/*
 # ================= #
 /src/*/Build
 /scripts/CI/invoke.yaml
+/src/saritasa-unity-vrclimbing/UserSettings
