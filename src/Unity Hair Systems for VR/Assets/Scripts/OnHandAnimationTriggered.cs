@@ -16,10 +16,10 @@ public class OnHandAnimationTriggered : MonoBehaviour
 
     private void Update()
     {
-        HandGrib();
+        OnHandGrib();
     }
 
-    private void HandGrib()
+    private void OnHandGrib()
     {
         gribInputValue = gripAction.action.ReadValue<float>();
         handAnimator.SetFloat("Grip", gribInputValue);
